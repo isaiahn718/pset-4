@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 let sum = 0
 
-let x = 0
+let g = 0
 
 console.log();
 
@@ -16,15 +16,15 @@ do{
 
 do {
 
-  x = positiveInteger % 10;
+  g = positiveInteger % 10;
 
-  if (x % 2 != 0) {
+  if (g % 2 != 0) {
 
-    sum = sum + x;
+    sum = sum + g;
 
   }
 
-  positiveInteger = positiveInteger - x
+  positiveInteger = positiveInteger - g
 
   positiveInteger = positiveInteger/10;
 
